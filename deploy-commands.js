@@ -9,7 +9,7 @@ const guildId = process.env.GUILDID;
 const token = process.env.DISCORD_TOKEN;
 
 const commands = [
-	new SlashCommandBuilder().setName('Hello').setDescription('Replies with Hello World!'),
+	new SlashCommandBuilder().setName('hello').setDescription('Replies with Hello World!'),
 	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
 	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
 ]
